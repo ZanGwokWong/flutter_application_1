@@ -54,13 +54,13 @@ class ProfilePage extends StatelessWidget {
               // TODO: Navigate to settings page
             },
           ),
-          // ListTile(
-          //   leading: const Icon(Icons.exit_to_app),
-          //   title: const Text('Log Out'),
-          //   onTap: () {
-          //     // TODO: Implement logout functionality
-          //   },
-          // ),
+          ListTile(
+            leading: const Icon(Icons.exit_to_app),
+            title: const Text('Log Out'),
+            onTap: () {
+              // TODO: Implement logout functionality
+            },
+          ),
         ],
       ),
     );
